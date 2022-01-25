@@ -52,6 +52,10 @@ header {
   text-align: center;
 }
 
+.active {
+  background-color: black;
+  color: red;
+}
 .rating {
   display: flex;
   align-items: center;
@@ -171,7 +175,7 @@ input:focus {
 .btn:disabled {
   background-color: #cccccc;
   color: #333;
-  cursor: auto;
+  cursor: not-allowed;
 }
 
 .btn:disabled:hover {
